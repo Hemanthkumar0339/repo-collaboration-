@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | HEALTHY BASKET</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 2rem;
+            color: #333;
+        }
+        .contact-info {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #218838;
+        }
+        .footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Get in touch with HEALTHY BASKET Store for any questions or inquiries.</p>
+        </header>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <h2 class="section-title">Our Location & Contact Information</h2>
+            <p>Visit us at:</p>
+            <p><strong>HEALTHY BASKET Store</strong><br>
+            123 Grocery St, Friendly Town, FT 54321</p>
+            <p>Phone: <strong>(91) 123-456-7890</strong></p>
+            <p>Email: <strong>healthybasket@gmail.com</strong></p>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2 class="section-title">Send Us a Message</h2>
+            <p>Have a question or feedback? Fill out the form below and we'll get back to you as soon as possible.</p>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Enter your message here..."></textarea>
+                
+                <button onclick="alert('Submited !!')">Send Message</button> 
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2024 Healthy Basket Store. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

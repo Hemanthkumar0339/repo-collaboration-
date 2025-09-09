@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>HEALTHY BASKET</title>
+    <link rel="stylesheet" href="1background.css">
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #f7f7f7;
+            overflow-x: hidden;
+        }
+
+
+        .form-container {
+            position: absolute;
+            top: 50%;
+            left: -100%; /* Start off-screen to the left */
+            transform: translateY(-50%);
+            width: 90%;
+            max-width: 500px;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+            animation: slideIn 2s forwards;
+        }
+
+       
+        @keyframes slideIn {
+            0% {
+                left: -100%;
+            }
+            100% {
+                left: 5%;
+            }
+        }
+
+        h1, h2 {
+            color: #f7a7a7;
+            font-family: 'Verdana', sans-serif;
+            text-align: center;
+        }
+
+        label {
+            color: #444;
+            font-size: 16px;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input, button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"] {
+            width: auto;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #f7a7a7;
+            color: white;
+            border: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #f58585;
+        }
+
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        button a:hover {
+            color: white;
+        }
+
+        @media screen and (max-width: 600px) {
+            .form-container {
+                width: 90%;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>HEALTHY BASKET</h1>
+        <h2>Register</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+            
+            <label for="phonenumber">Phone number:</label>
+            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Enter your phone number" required><br>
+            
+            <label>Gender:</label><label><input type="radio" name="gender" value="Male"> Male</label>
+            
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+            <label><input type="radio" name="gender" value="Others"> Others</label><br><br>
+
+            <button><a href="C:\Users\Himshankar\OneDrive\ADC Collage Hima\Documents\projects\healthybasket\Main page.html
+                ">SUBMIT</a></button>
+        </form>
+    </div>
+
+</body>
+</html>

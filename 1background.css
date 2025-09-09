@@ -1,0 +1,6 @@
+body{
+    background-image:url("Register background .png");
+    background-size:Cover;/Covers the entire background area/
+    background-position:center;/centers the image/
+    height:100vh;/full viewpoint height/
+    }
